@@ -18,6 +18,10 @@ class starter {
 		int day = sc.nextInt();
 		System.out.println ("What year were you born");
 		int year = sc.nextInt();
+		System.out.println ("If I have a dollar and two quarters, how much money do I have?");
+		double money = sc.nextDouble();
+		System.out.println ("Your name is " + name + " and you were born on " + month + "/" + day + "/" + year + " You are " + age + " Years old! " + "You have " + money + "$ in your wallet");
+
 
 
 

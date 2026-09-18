@@ -18,8 +18,18 @@ class LectureInput{
         int friesquant = sc.nextInt();
         System.out.println("How many sodas would you like?");
         int sodaquant = sc.nextInt();
+         double burgertotal = (burgerquant*b);
+        double friestotal = (friesquant*f);
+        double sodatotal = (sodaquant*s);
+        System.out.println("How much would you like to tip?");
+        double tip = sc.nextDouble();
+        double finaltotal = (burgertotal + friestotal + sodatotal + tip);
+        tip = tip/100 * finaltotal;
+        System.out.println ("your total is: " + finaltotal);
         System.out.println ("Here is your receipt");
-        double burgertotal = (burgerquant*b);
+        System.out.println("burger amount:" + burgerquant + " fries amount:" + friesquant + " soda amount:" + sodaquant); 
+        System.out.println(" tip:" + tip + " final total:" + finaltotal);
+        System.out.print("thank you for visting!");
 
 
         
