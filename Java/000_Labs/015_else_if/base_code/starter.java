@@ -12,17 +12,19 @@ class starter {
 		System.out.println ("Hello! This is a number guessing game guess a number from 1-1000 put in a number");
 		int number = sc.nextInt ();
 		int numgen = (int)(Math.random()*1001)+0;
-		int numb = sc.nextInt ();
 		if (number==numgen){
 			System.out.println("Good job! you guessed it right the number is " + numgen);
 		
 		}
 		else if(number<numgen){
 			System.out.println("Try again the number is greater than what you said");
-			
+			int num2 = sc.nextInt();
 		}
-		else {
+		else if (number>numgen){
 			System.out.println("Try again the number is less than what you said");
+			int num3 = sc.nextInt();
 		}
+		
+		System.out.println ("Sorry you failed but try again!");
 	}
 }
