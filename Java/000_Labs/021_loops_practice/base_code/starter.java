@@ -18,29 +18,28 @@ class starter {
             System.out.println("You guessed the right number");
 			
 		}
-		while(true){
-		if(y!=x){
+		while(y!=x){
 				
             System.out.println("try again,Guess a number from 1-1000");
-		   int yy = sc.nextInt();
+			int yy = sc.nextInt();
 		   int xx = 5;
-		}
-		if (yy == xx){
-		break;
-		}
-		
-			System.out.println("you got it");
-		
-		
+		   if (yy == xx){
 			
-		
-				
+    System.out.println("you got it");
+	break;
+	}
+		  
 		}
+		
+	
+		   
+		
+		
+		
 	
 	
 	
 	
 	
 	}
-
 }
